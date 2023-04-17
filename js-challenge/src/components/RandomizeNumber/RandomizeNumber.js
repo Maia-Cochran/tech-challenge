@@ -1,15 +1,16 @@
-import { useState } from 'react';
+import { useState} from 'react';
+// import ShowLossMessage from '../ShowLossMessage/ShowLossMessage';
+
 
 const RandomizeNumber = () => {
     const [num, setNum] = useState(0);
-
-    function randomNumberInRange(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
-
+    const max = 100000;
+    const randomNumber = Math.floor(Math.random() * max);
+    
     const handleClick = () => {
-        setNum(randomNumberInRange(1, 1000000));
+        setNum(randomNumber);
     };
+
     return (
         <div className="RandomizeNumber">
             <h1>Click the button to draw a number.</h1>

@@ -3,7 +3,7 @@ import React from 'react';
 function Header() {
     return (
         <div className="Header">
-            The JavaScript Lottery
+            <h1>The JavaScript Lottery</h1>
         </div>
     );
 }
