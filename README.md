@@ -1,12 +1,17 @@
 # BIS Tech Challenge
 
 ## Overall Reflections
-- This is a really fun challenge! I truly enjoyed working on both of these, and I plan to continue to reach full replication right away. 
+- This is a really fun challenge! I enjoyed working on both of these, and I plan to continue to reach full replication. 
 - I wish I had a bit more time before the deadline, as I know I was very close to completing both (including deployment). 
-- A great learning experience overall, one of which I would highly recommend to any of my fellow dev professionals.  afdf 
+- A great learning experience overall, one of which I would highly recommend to any of my fellow dev professionals.  
 
 ## JS Challenge Demo:
+### Without error handling:
 https://user-images.githubusercontent.com/101746747/232433134-1e8257ea-205b-4525-b4f6-87c52894e463.mov
+
+### With basic error handling:
+https://user-images.githubusercontent.com/101746747/232533775-f0ae93dc-29ef-47b8-acd0-f2b0c364d305.mov
+
 
 ### Wins:
 - Replicated randomized "lotto numbers" in React
@@ -14,9 +19,8 @@ https://user-images.githubusercontent.com/101746747/232433134-1e8257ea-205b-4525
 - Understanding of logic and further iterations
 
 ### Challenges:
-- Missing error handling for loss of the game
 - Missing continuous randomization of numbers upon single-click to play
-- Lots of pseudo-code remaining as project is unfinished
+- Missing "pop-up" feature for error message
 
 
 ## CSS Challenge Demo:
